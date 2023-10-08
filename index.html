@@ -10,6 +10,35 @@
     <title>Mon Environement Numérique de Travail</title>
     <link rel="stylesheet" href="style.css">
 </head>
+</head>
+<body>
+    <!-- Contenu de votre page -->
+    
+    <!-- Pop-up -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Message d'avertissement</h2>
+            <p>Ceci est un message d'avertissement important.</p>
+            <button onclick="fermerPopup()">Je suis conscient</button>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour afficher la pop-up
+        function afficherPopup() {
+            document.getElementById("popup").style.display = "flex";
+        }
+
+        // Fonction pour fermer la pop-up
+        function fermerPopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+
+        // Afficher la pop-up au chargement de la page (à des fins de démonstration)
+        window.onload = afficherPopup;
+    </script>
+</body>
+</html>
 <body>
     <header>
         <div class="logo">Mon Environement Numérique de Travail</div>
