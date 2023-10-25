@@ -114,3 +114,27 @@ footer {
     padding: 600px;
     text-align: center;
 }
+.grades4A {
+    background-image: url('https://xv5647.github.io/ressources/3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 600px;
+    text-align: center;
+}
+.grades5A {
+    background-image: url('https://xv5647.github.io/ressources/2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 600px;
+    text-align: center;
+}
+.grades6A {
+    background-image: url('https://xv5647.github.io/ressources/1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 600px;
+    text-align: center;
+}
