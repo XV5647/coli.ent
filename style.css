@@ -107,7 +107,7 @@ footer {
 }
 .grades3A {
     background-image: url('https://xv5647.github.io/ressources/4.png');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     color: #ffffff;
     padding: 5000px;
