@@ -22,6 +22,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    background-size: auto;
 }
 
 nav ul {
